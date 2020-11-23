@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ap';
+
+
+  prev() {
+    document.getElementById('container').classList.add('margin-left')
+    console.log("perv");
+  }
+
+  dalej() {
+
+  }
 }
